@@ -1,4 +1,4 @@
-
+ 
 public class EntendendoFor {
 
 	public static void main(String[] args) {
