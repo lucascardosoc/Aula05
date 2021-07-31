@@ -1,4 +1,5 @@
- 
+import java.util.Scanner;
+
 public class EntendendoFor {
 
 	public static void main(String[] args) {
@@ -10,8 +11,11 @@ public class EntendendoFor {
 		System.out.println(x);
 		
 		
+	Scanner leitor = new Scanner(System.in);	
 		for(int i=0;i<=10;i++) {
 			System.out.println(i);
+			i=leitor.nextInt();
+			System.out.println("O" + i);
 		}
 
 	}
